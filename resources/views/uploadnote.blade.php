@@ -36,23 +36,23 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in as  Admin!') }}
                 </div>
                 <button class="rounded-pill">
-                    Enter JAMB Class!
+                    Upload JAMB Note
                 </button> <p></p>
                 <button class="rounded-pill">
-                Enter Post UTME Class!
+                Upload IELTS Note
                 </button> <p></p>
                 <button class="rounded-pill">
-                Enter SAT Class!
+                Class List
                 </button> <p></p>
                 <button class="rounded-pill">
-                Enter IELTS Class!
+                Upload dashboard
                 </button> <p></p>
-                <button class="rounded-pill">
-                Pay Tuition
-                </button>
+
+                
+
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Welcome To Al-Faruq E-learning Portal</title>
+        <title>About Us</title>
         <h5>Powered by <strong>L'Phi Hub</strong> </h5>
 
         <!-- Fonts -->
@@ -65,7 +65,8 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+    <div></div>
+        <div>
             
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,19 +82,50 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                Welcome To Al-Faruq E-learning Portal
-                </div>
+            <h1>About Al-Faruq E-Learning</h1>
+            <div class="flex-center position-ref full-height">
+            
+            
 
-                
-                
 
-                <div class="links">
-                    <a href="www.alfaruqschools.com">School Website!</a>
-                    <a href="{{ url('/about') }}">About Us</a>
-                </div>
+
+
+
+
+
+
+
+
+                <h3>
+            The Al-faruq E-Learning platform is designed to enhance learning without boundaries, borders, barriers or any form of physical limitations.
+            
+            The concept of the Al-faruq brand was initiated by Dr. Abdul-Hakeem Abdul-Lateef and birthed on the 30th of October, 1995.  Ever since, the brand has produced unnumerable and colossal geniuses that now bestride the academic and industrial landscape, locally and internationally.
+           
+             This platform(E-learning) is specifically designed to expose students to some LIKELY EXAMINATION QUESTIONS they will be faced with in national and international examination such as WAEC, JAMB, POST JAMB, SAT, IELTS and more. The videos were produced to give the candidates and viewers that rare kind of classroom experience with exceptional and gifted instructors/experts, applying uncommon teaching modules that are quite unconventional
+            <p>WELCOME TO THE WORLD OF CHAMPIONS!</p> 
+            </h3>        
+            <p></p>
+
+
+            <div class="links">
+                <a href="{{ url('/') }}">Back</a>
             </div>
+
+
+            </div>
+                      
+                
+                
+                
+
+
+
+
+            </div>
+
         </div>
+
+                
+
     </body>
 </html>

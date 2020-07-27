@@ -36,23 +36,32 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in as  Admin!') }}
                 </div>
-                <button class="rounded-pill">
-                    Enter JAMB Class!
-                </button> <p></p>
-                <button class="rounded-pill">
-                Enter Post UTME Class!
-                </button> <p></p>
-                <button class="rounded-pill">
-                Enter SAT Class!
-                </button> <p></p>
-                <button class="rounded-pill">
-                Enter IELTS Class!
-                </button> <p></p>
-                <button class="rounded-pill">
-                Pay Tuition
-                </button>
+                <table class="table table-hover table-bordered">
+                    <thead>
+                    <tr>
+                        <th width = "5"> No.</th>
+                        <th width = "5"> Member Name</th>
+                        <th width = "5"> Email</th>
+                        <th width = "5"> Studentship</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        @foreach ($users as $key => $value)
+                        <tr>
+                            <td>{{ $key+1 }}</td>
+                            <td>{{ $value->name }}</td>
+                            <td>{{ $value->email }}</td>
+                            <td>{{ $value->admin }}</td>
+                        </tr>
+                        @endforeach
+                    </tbody>
+                </table>
+
+
+                
+
             </div>
         </div>
     </div>
